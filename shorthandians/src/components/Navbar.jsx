@@ -10,7 +10,7 @@ export default function Navbar() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navLinks = ['Home', 'About', 'Courses', 'Practice', 'Success', 'Contact'];
+    const navLinks = ['Home', 'About', 'Courses', 'Practice', 'Mock Tests', 'Results', 'Contact'];
 
     const scrollTo = (id) => {
         const el = document.getElementById(id.toLowerCase());
