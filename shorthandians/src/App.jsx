@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Achievements from './components/Achievements';
 import WhyChoose from './components/WhyChoose';
 import Courses from './components/Courses';
-import PracticePreview from './components/PracticePreview';
 import PracticeDashboard from './components/PracticeDashboard';
 import DictationLibrary from './components/DictationLibrary';
 import LiveTyping from './components/LiveTyping';
@@ -79,7 +78,6 @@ export default function App() {
       <Leaderboard />
       <AppPromotion />
 
-      <PracticePreview />
       <SuccessHighlights />
       <GoogleReviews />
       <About />
