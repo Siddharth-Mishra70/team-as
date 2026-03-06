@@ -13,6 +13,7 @@ import Leaderboard from './components/Leaderboard';
 import MockTest from './components/MockTest';
 import AppPromotion from './components/AppPromotion';
 import SuccessHighlights from './components/SuccessHighlights';
+import GoogleReviews from './components/GoogleReviews';
 import About from './components/About';
 import OfflineCoaching from './components/OfflineCoaching';
 import CTA from './components/CTA';
@@ -80,6 +81,7 @@ export default function App() {
 
       <PracticePreview />
       <SuccessHighlights />
+      <GoogleReviews />
       <About />
       <OfflineCoaching />
       <CTA />
