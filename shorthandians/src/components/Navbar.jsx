@@ -13,7 +13,8 @@ export default function Navbar() {
     const navLinks = ['Home', 'About', 'Courses', 'Practice', 'Mock Tests', 'Results', 'Contact'];
 
     const scrollTo = (id) => {
-        const el = document.getElementById(id.toLowerCase());
+        const targetId = id.toLowerCase().replace(/\s+/g, '-');
+        const el = document.getElementById(targetId);
         if (el) el.scrollIntoView({ behavior: 'smooth' });
         setMobileOpen(false);
     };
