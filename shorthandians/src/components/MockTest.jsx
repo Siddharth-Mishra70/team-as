@@ -61,7 +61,9 @@ export default function MockTest() {
                                 </div>
                             </div>
 
-                            <button className="w-full btn-outline group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                            <button
+                                onClick={() => alert(`Starting ${test.title} at ${test.target}... (Demo Mode)`)}
+                                className="w-full btn-outline group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
                                 Start Test
                             </button>
                         </div>
