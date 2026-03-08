@@ -6,7 +6,7 @@ import WhyChoose from './components/WhyChoose';
 import Courses from './components/Courses';
 import PracticeDashboard from './components/PracticeDashboard';
 import DictationLibrary from './components/DictationLibrary';
-import LiveTyping from './components/LiveTyping';
+
 import ProgressAnalytics from './components/ProgressAnalytics';
 import Leaderboard from './components/Leaderboard';
 import MockTest from './components/MockTest';
@@ -15,7 +15,7 @@ import SuccessHighlights from './components/SuccessHighlights';
 import GoogleReviews from './components/GoogleReviews';
 import About from './components/About';
 import OfflineCoaching from './components/OfflineCoaching';
-import CTA from './components/CTA';
+
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -73,7 +73,7 @@ export default function App() {
       <SpeedTraining />
 
       <MockTest />
-      <LiveTyping />
+
       <ProgressAnalytics />
       <Leaderboard />
       <AppPromotion />
@@ -82,7 +82,7 @@ export default function App() {
       <GoogleReviews />
       <About />
       <OfflineCoaching />
-      <CTA />
+
       <Contact />
       <Footer />
     </div>
